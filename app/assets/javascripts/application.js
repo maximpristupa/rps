@@ -22,12 +22,14 @@ $(function() {
 	var upd = document.getElementById("update");
 	var span = document.getElementsByClassName("close")[0];
 	var modalContent = document.getElementsByClassName("modal-content")[0];
+	var close = document.getElementById("close");
 	[...document.querySelectorAll(".myBtn")].map(
 		function(element, index, array) {
 			element.onclick = function() {
 			  modal.style.display = "block";
 			  info.style.display = "block";
 			  upd.style.display = "none";
+			  close.style.display = "none";
 			  var oImg = document.createElement("img");
 			  oImg.setAttribute('src', 'assets' + element.id );
 		  	  var item = document.getElementById("user_throw");
@@ -40,4 +42,9 @@ $(function() {
 	 	modalContent.style.height = "470px";
 		modalContent.style.width = "880px";  
 	};
+	close.onclick = function() {
+	  modal.style.display = "none";
+	 	modalContent.style.height = "470px";
+		modalContent.style.width = "880px";
+	}
 });

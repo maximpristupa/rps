@@ -80,7 +80,14 @@
    	 margin-top: 90px;
    	 margin-bottom: 70px;
 	}
-	#close{
+	p{
+		text-align: center;
+   	font-family: 'Roboto', sans-serif;
+   	opacity: 0.5; 
+   	font-size: 21px;
+	}
+}
+#close{
 		width: 355px;
 		height: 63px;
 		border-radius: 5px 5px 5px 5px;
@@ -94,13 +101,6 @@
     padding-top: 20px;
     cursor: pointer;
 	}
-	p{
-		text-align: center;
-   	font-family: 'Roboto', sans-serif;
-   	opacity: 0.5; 
-   	font-size: 21px;
-	}
-}
 
 
 /* The Modal (background) */
