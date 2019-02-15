@@ -46,5 +46,5 @@ $(function() {
 	  modal.style.display = "none";
 	 	modalContent.style.height = "470px";
 		modalContent.style.width = "880px";
-	}
+	};
 });
